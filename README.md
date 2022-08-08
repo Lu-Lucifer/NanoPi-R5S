@@ -1,9 +1,9 @@
-# 中文简体 | [English](https://github.com/DHDAXCW/NanoPi-R4S-2021/blob/main/EngLish.md)
-# NanoPi-R4S-2021 每天自动更新插件和内核版本。
+# 中文简体 | [English](https://github.com/DHDAXCW/NanoPi-R5S-2021/blob/main/EngLish.md)
+# NanoPi-R5S-2022 每天自动更新插件和内核版本。
 # 机场推荐 [ENET--IEPL内网专线接入](https://www.easy2022.com/#/register?code=Ut7iWMrk)
 ## 👉使用本固件前，请严格遵守国家互联网使用相关法律规定,不要违反国家法律规定！👈
 ## 强烈推荐三星TF卡\海康TF卡。哪怕是很难刷上的固件，只有三星刷上可以开机。
-### 固件分类 在[releases](https://github.com/DHDAXCW/NanoPi-R4S-2021/releases)有备注关键词
+### 固件分类 在[releases](https://github.com/DHDAXCW/NanoPi-R5S/releases)有备注关键词
 - 正式版（含超频）对折腾的，可以选择，电压一定要考虑。超频都是升压的，会造成不稳定的。比如跑cpu测试容易升压等。
 - Docker版 含Docker插件，会导致udp转发失效 慎用哦，只要别开passwall的udp，啥都不影响使用！
 - 稳定版 含有日常使用插件
@@ -17,7 +17,7 @@
 - 用户名：root 密码：password  管理IP：192.168.11.1
 - 下载地址： https://github.com/DHDAXCW/NanoPi-R4S-2021/releases
 - x86_64固件下载 https://github.com/DHDAXCW/lede/releases、
-- 关于r4se刷机方法请参考dn2刷机 https://github.com/DHDAXCW/DoorNet2/blob/main/emmc.md
+- 关于r5s刷机方法请参考dn2刷机 https://github.com/DHDAXCW/DoorNet2/blob/main/emmc.md
 ### - Docker：正式版带docker，有超频，带有docker插件。（对passwall的udp要求很高，不要刷docker版本）
 - 电报群：https://t.me/DHDAXCW
 - X86固件 ：[点击链接下载](https://github.com/DHDAXCW/lede/releases)
@@ -31,12 +31,6 @@ wget https://raw.githubusercontent.com/lone-wind/scripts/main/onlineupdate.sh &&
 # 插件展示
  
  ![image](https://user-images.githubusercontent.com/74764072/183227361-e8bdb023-5514-437d-97e8-e13ca4285035.png)
- 
-### AES跑分
- ![image](https://user-images.githubusercontent.com/74764072/183227382-7dd4c7e9-b2b4-4471-b867-3963bdd6c7a2.png)
-### HTOP
- ![image](https://user-images.githubusercontent.com/74764072/183227388-8a51ed5f-282b-4154-9be2-3abe26387dd7.png)
-
 
 ## 提示
  - 我的固件加了动态超频，不管热不热这是取决后台运行程序在跑什么。
