@@ -23,11 +23,7 @@
 - X86固件 ：[点击链接下载](https://github.com/DHDAXCW/lede/releases)
 # 在线升级
 - 复制以下代码，在TTYD终端执行，过程中不得离开，否则还得重新下载，请刷ext4格式明天再升级
-### 该升级支持4G版，1G版
-- 多版本在里面，自己选 👇ok 
-```
-wget https://raw.githubusercontent.com/lone-wind/scripts/main/onlineupdate.sh && sh onlineupdate.sh
-```
+
 # 插件展示
  
  ![image](https://user-images.githubusercontent.com/74764072/183227361-e8bdb023-5514-437d-97e8-e13ca4285035.png)
